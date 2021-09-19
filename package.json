@@ -1,0 +1,14 @@
+{
+  "name": "personal-site",
+  "version": "1.0.0",
+  "description": "Personal Site",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "sass sass/main.scss css/style.css -w"
+  },
+  "author": "Nick Nall",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.41.0"
+  }
+}

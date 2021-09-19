@@ -1,0 +1,48 @@
+*,
+*::before, 
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing:inherit;
+}
+
+html{
+    font-size:62.5%;
+    box-sizing:border-box;
+}
+
+//Font Variables
+$font-primary:'Quicksand', sans-serif;
+$font-secondary:'Marcellus', serif;
+$font-tertiary:'Patrick Hand SC', cursive;
+
+
+//Color Variables
+
+$color-primary: #F5F4F4;
+$color-primary-dark:#E7E7DE;
+
+$color-secondary: #CAE4DB;
+$color-secondary-medium:#5F939A;
+$color-secondary-dark:#00303F;
+
+$color-tertiary:#ECB390;
+$color-tertiary-dark:#E08F62;
+
+
+$color-brown-light:#CDAC81;
+$color-brown-dark:#7D5A50;
+
+
+$color-dark-grey:rgb(67,61,60, .7);
+
+
+body{
+    background-color:$color-primary-dark; 
+    color:$color-dark-grey;
+    font-family:$font-primary;
+    //line-height:1.6rem;
+
+    font-size:1.8rem;
+}
+
